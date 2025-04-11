@@ -1,0 +1,163 @@
+/* Navigation Section */
+/* This styles the navigation bar to stay fixed at the top with a clean, centered layout */
+nav {
+  background: #fff;
+  overflow: hidden;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+/* Styling for navigation links to ensure they are neatly displayed */
+nav a {
+  display: inline-block;
+  color: #000;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Hover effect for navigation links to add a soft pink background */
+nav a:hover {
+  background: #FCEEF0;
+  color: #000;
+}
+
+/* Active link styling to highlight the current page with a bold red background */
+.navbar a.active {
+  background: #B01C37;
+  color: #fff;
+}
+
+/* Base Elements Section */
+/* Setting up the body with a light background and a clean font for readability */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f8f8;
+  overflow: hidden;
+}
+
+/* Styling images to be centered with a subtle rounded border */
+img {
+  max-width: 40%;
+  margin: 5% 0 0 30%;
+  border-radius: 8px;
+  display: block;
+}
+
+/* Shapes Section */
+/* Creating decorative rectangles to add depth and visual interest to the design */
+.rectangle, .rectangle1, .rectangle2, .rectangle3, .rectangle4, .rectangle5, .rectangle6, .rectangle7 {
+  position: absolute;
+  background: #C41E3D;
+  z-index: -1;
+}
+
+/* Individual rectangle styles for unique positioning and colors */
+.rectangle { width: 101%; height: 200%; margin: -12% 0 0 -10px; }
+.rectangle1 { width: 25%; height: 70%; margin: 8.9% 0 0 5%; border-radius: 10px; }
+.rectangle2 { width: 22%; height: 30%; margin: 9.4% 0 0 730px; border-radius: 15px; }
+.rectangle3 { width: 22%; height: 35%; margin: 27.5% 0 0 1070px; border-radius: 15px; }
+.rectangle4 { width: 22%; height: 35%; margin: 27.5% 0 0 730px; background: #FCBF49; border-radius: 15px; }
+.rectangle5 { width: 22%; height: 30%; margin: 9.4% 0 0 1070px; background: #FCBF49; border-radius: 15px; }
+.rectangle6 { width: 101%; height: 120%; margin: -55% 0 0 -10px; background: #fff; z-index: -3; }
+.rectangle7 { width: 101%; height: 200%; margin: -12% 0 0 -10px; background: #000; z-index: -3; }
+
+/* Creating circular shapes with blur effects for a dreamy background aesthetic */
+.circle, .circle2, .circle3, .circle4, .circle5, .circle6, .cir, .cir1, .cir2, .cir3 {
+  position: absolute;
+  background: #131200;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+/* Individual circle styles with varying sizes, colors, and blur for a layered effect */
+.circle { width: 500px; height: 500px; margin: 16% 0 0 32%; filter: blur(30px); }
+.circle2 { width: 500px; height: 500px; margin: 11.5% 0 0 9%; filter: blur(20px); }
+.circle3 { width: 250px; height: 250px; margin: 6% 0 0 1%; background: #FCBF49; filter: blur(30px); z-index: -2; }
+.circle4 { width: 250px; height: 250px; margin: 40% 0 0 85%; background: #FCBF49; filter: blur(40px); z-index: -2; }
+.circle5 { width: 250px; height: 250px; margin: 9% 0 0 45%; background: #F77F00; filter: blur(40px); z-index: -2; }
+.circle6 { width: 250px; height: 250px; margin: 37% 0 0 25%; background: #F77F00; filter: blur(30px); z-index: -2; }
+.cir { width: 250px; height: 250px; margin: 5% 0 0 5%; background: #FCBF49; filter: blur(40px); opacity: 0.5; }
+.cir1 { width: 250px; height: 250px; margin: 35% 0 0 80%; background: #FCBF49; filter: blur(40px); opacity: 0.5; }
+.cir2 { width: 150px; height: 150px; margin: 3% 0 0 75%; background: #FB8500; filter: blur(40px); opacity: 0.5; }
+.cir3 { width: 150px; height: 150px; margin: 39% 0 0 15%; background: #FB8500; filter: blur(40px); opacity: 0.5; }
+
+/* Headers Section */
+/* Positioning and styling headers to create a clear hierarchy of text */
+.header, .header1, .header2, .header3, .header4, .header5, .header6, .header7, .header8, 
+.head, .head1, .head2, .head3 {
+  position: absolute;
+  color: #fff;
+}
+
+/* Individual header styles for different sizes and placements */
+.header { margin: -26% 0 0 5%; font-size: 50px; }
+.header1 { margin: -17% 0 0 5%; font-size: 30px; }
+.header2 { margin: -16.5% 0 0 19.5%; font-size: 23px; }
+.header3 { margin: 2.7% 0 0 64.5%; font-size: 20px; color: #000; }
+.header4 { margin: 9.5% 0 0 53%; font-size: 15px; text-align: center; }
+.header5 { margin: 27.7% 0 0 53%; font-size: 15px; text-align: center; color: #131200; }
+.header6 { margin: 27.7% 0 0 76.8%; font-size: 15px; text-align: center; }
+.header7 { margin: 9.5% 0 0 76.8%; font-size: 15px; text-align: center; color: #131200; }
+.header8 { margin: -1.5% 0 0 30%; font-size: 75px; text-align: center; }
+.head { margin: 17% 0 0 4.5%; font-size: 12px; text-align: center; }
+.head1 { margin: 39% 0 0 4.5%; font-size: 12px; text-align: center; }
+.head2 { margin: 17% 0 0 68.5%; font-size: 12px; text-align: center; }
+.head3 { margin: 39% 0 0 68.5%; font-size: 12px; text-align: center; }
+
+/* Content Section */
+/* Styling the main paragraph to be readable and well-positioned */
+.paragraph { 
+  color: #fff; 
+  margin: -27.2% 0 0 72%; 
+  font-size: 20px; 
+  max-width: 25%; 
+  text-align: justify; 
+  position: absolute; 
+}
+
+/* Styling ingredient lists for a structured and tidy appearance */
+.ingredients, .ingredients1, .ingredients2, .ingredients3 {
+  position: absolute;
+  font-size: 16px;
+  text-align: justify;
+  max-width: 25%;
+}
+
+/* Individual ingredient list placements with color adjustments */
+.ingredients { margin: 13.3% 0 0 51.5%; color: #fff; }
+.ingredients1 { margin: 31.5% 0 0 51.5%; max-width: 17%; }
+.ingredients2 { margin: 31.5% 0 0 75.5%; max-width: 17%; color: #fff; }
+.ingredients3 { margin: 13.3% 0 0 75.5%; }
+
+/* Styling step-by-step instructions for clarity and consistency */
+.steps, .steps1, .steps2, .steps3 {
+  position: absolute;
+  color: #fff;
+  font-size: 12px;
+  max-width: 30%;
+  text-align: justify;
+}
+
+/* Positioning steps in different sections of the layout */
+.steps { margin: 20% 0 0 3%; }
+.steps1 { margin: 42% 0 0 3%; }
+.steps2 { margin: 20% 0 0 67%; }
+.steps3 { margin: 42% 0 0 67%; }
+
+/* Images Section */
+/* Styling additional images with rounded corners for a cohesive look */
+.img1, .pic, .pic1 {
+  border-radius: 8px;
+  display: block;
+  position: absolute;
+}
+
+/* Individual image placements to fit the design layout */
+.img1 { width: 100%; margin: 4% 0 0 -20%; }
+.pic, .pic1 { width: 120%; margin: 10% 0 0 -8%; z-index: -1; }
