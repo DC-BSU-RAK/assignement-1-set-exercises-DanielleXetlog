@@ -1,0 +1,117 @@
+/* Sets the default font and removes default margins/padding for the page */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Adjusts scrolling behavior for smooth navigation */
+html {
+  scroll-padding-top: 250px;
+  scroll-behavior: smooth;
+}
+
+/* Styles all elements starting with 'rectangle' for background design */
+[class^="rectangle"] {
+  width: 1440px;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+/* Defines unique rectangle styles for different page sections */
+.rectangle { height: 800px; background: #219ebc; }
+.rectangle2 { height: 800px; background: #ffcb47; margin-top: 40px; }
+.rectangle3 { height: 800px; background: #fefae0; margin-top: 40px; }
+.rectangle4 { height: 800px; background: #d72638; margin-top: 40px; }
+.rectangle5 { height: 800px; background: #f0eff4; margin-top: 40px; }
+.rectangle6 { height: 800px; background: #011627; margin-top: 40px; }
+.rectangle7, .rectangle8, .rectangle9 { height: 252px; background: #fdfffc; border-radius: 5px; }
+.rectangle7 { margin: 320px 0 0 50px; width: 440px; }
+.rectangle8 { margin: 290px 0 0 500px; width: 440px; }
+.rectangle9 { margin: 320px 0 0 950px; width: 440px; }
+
+/* Creates a fixed navigation bar at the top */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #1f91ad;
+  padding: 15px 0;
+  text-align: center;
+}
+
+/* Styles navigation links */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 15px;
+}
+
+/* Adds hover effect to navigation links */
+nav a:hover {
+  background: #1c829c;
+  border-radius: 5px;
+}
+
+/* Centers and colors all headings */
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  color: #ffcb47;
+}
+
+/* Customizes each heading size and spacing */
+h1 { margin-top: 230px; font-size: 150px; }
+h2 { margin-top: 230px; font-size: 50px; color: #1c829c; }
+h3 { margin-top: 230px; font-size: 50px; color: #1c829c; }
+h4 { margin-top: 200px; font-size: 50px; color: #fff; }
+h5 { margin-top: 220px; font-size: 50px; color: #1c829c; }
+h6 { margin-top: 200px; font-size: 50px; color: #fff; }
+
+/* Styles paragraphs and lists for readability */
+p, ul { 
+  color: #1c829c;
+  font-size: 20px;
+  max-width: 80%;
+}
+
+/* Adjusts paragraph positioning and alignment */
+p { margin: 50px 0 0 150px; text-align: center; }
+.based p { margin-top: -80px; color: #ffcb47; }
+.names p { margin-top: 20px; color: #ffcb47; }
+.cv p { margin-left: 320px; color: #fff; max-width: 55%; }
+.ct p { margin-left: 300px; max-width: 55%; }
+
+/* Positions lists for content sections */
+ul { margin: 10px 0 0 30px; text-align: left; }
+.section1 { margin: 50px 0 0 100px; }
+.section2 { margin: -130px 0 0 800px; }
+
+/* Styles review section text and ratings */
+.reviews1 p { margin-top: -15px; margin-left: 90px; color: #1c829c; max-width: 25%; text-align: left; font-size: 25px; position: absolute; }
+.reviews p { margin-top: 30px; margin-left: 90px; color: #1c829c; max-width: 25%; text-align: justify; font-size: 15px; position: absolute; }
+.stars1 p { margin-top: -10px; margin-left: 390px; color: #ffcb47; font-size: 15px; position: absolute; }
+.reviews2 p { margin-top: -40px; margin-left: 550px; color: #1c829c; max-width: 25%; text-align: left; font-size: 25px; position: absolute; }
+.reviews3 p { margin-top: 5px; margin-left: 550px; color: #1c829c; max-width: 23%; text-align: justify; font-size: 15px; position: absolute; }
+.stars2 p { margin-top: -35px; margin-left: 824px; color: #ffcb47; font-size: 15px; position: absolute; }
+.reviews4 p { margin-top: -15px; margin-left: 1000px; color: #1c829c; max-width: 25%; text-align: left; font-size: 25px; position: absolute; }
+.reviews5 p { margin-top: 30px; margin-left: 1000px; color: #1c829c; max-width: 24%; text-align: justify; font-size: 15px; position: absolute; }
+.stars3 p { margin-top: -10px; margin-left: 1285px; color: #ffcb47; font-size: 15px; position: absolute; }
+
+/* Designs a clickable button */
+.button {
+  display: inline-block;
+  padding: 20px 40px;
+  background: #ffcb47;
+  color: #1c829c;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-left: 45.5%;
+  margin-top: 1.5%;
+}
+
+/* Changes button color on hover */
+.button:hover { background: #FFA033; }
