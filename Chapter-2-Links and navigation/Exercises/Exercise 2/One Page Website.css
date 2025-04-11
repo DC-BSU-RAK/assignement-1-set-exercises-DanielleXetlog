@@ -1,0 +1,146 @@
+body {
+  /* Sets the font to Arial or similar for a clean look */
+  font-family: Arial, Helvetica, sans-serif;
+  /* Removes outer space around the body */
+  margin: 0;
+  /* Keeps inner space at zero */
+  padding: 0;
+}
+
+html {
+  /* Adds top space when scrolling to anchors */
+  scroll-padding-top: 250px;
+  /* Makes scrolling smooth and pretty */
+  scroll-behavior: smooth;
+}
+
+/* Rectangles */
+/* Targets all "rectangle" classes for background styling */
+[class^="rectangle"] {
+  /* Sets width to 1440px for wide sections */
+  width: 1440px;
+  /* Places them exactly with absolute positioning */
+  position: absolute;
+  /* Starts at the top of the page */
+  top: 0;
+  /* Puts them behind content with a low z-index */
+  z-index: -1;
+}
+
+.rectangle { height: 800px; background: #219ebc; }
+.rectangle2 { height: 443px; background: #ffcb47; margin-top: 800px; }
+.rectangle3 { height: 443px; background: #fefae0; margin-top: 1243px; }
+.rectangle4 { height: 632px; background: #d72638; margin-top: 1678px; }
+.rectangle5 { height: 522px; background: #f0eff4; margin-top: 2310px; }
+.rectangle6 { height: 552px; background: #011627; margin-top: 2830px; }
+.rectangle7, .rectangle8, .rectangle9 { height: 252px; background: #fdfffc; border-radius: 5px; }
+.rectangle7 { margin: 3060px 0 0 50px; width: 440px; }
+.rectangle8 { margin: 3030px 0 0 500px; width: 440px; }
+.rectangle9 { margin: 3060px 0 0 950px; width: 440px; }
+
+/* Navigation */
+nav {
+  /* Fixes the nav bar at the top */
+  position: fixed;
+  /* Sticks it to the top edge */
+  top: 0;
+  /* Stretches it across the full width */
+  width: 100%;
+  /* Colors it teal for visibility */
+  background: #1f91ad;
+  /* Adds padding for a comfy look */
+  padding: 15px 0;
+  /* Centers the links inside */
+  text-align: center;
+}
+
+nav a {
+  /* Makes link text white for contrast */
+  color: #fff;
+  /* Removes underlines for a sleek style */
+  text-decoration: none;
+  /* Adds space around links */
+  margin: 0 15px;
+  /* Gives links a button-like padding */
+  padding: 15px;
+}
+
+nav a:hover {
+  /* Darkens the background on hover */
+  background: #1c829c;
+  /* Rounds corners for a smooth effect */
+  border-radius: 5px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  /* Centers headings for balance */
+  text-align: center;
+  /* Sets a default yellow color */
+  color: #ffcb47;
+}
+
+h1 { margin-top: 330px; font-size: 150px; }
+h2 { margin-top: 230px; font-size: 50px; color: #1c829c; }
+h3 { margin-top: 230px; font-size: 50px; color: #1c829c; }
+h4 { margin-top: 270px; font-size: 50px; color: #fff; }
+h5 { margin-top: 220px; font-size: 50px; color: #1c829c; }
+h6 { margin-top: 230px; font-size: 50px; color: #fff; }
+
+/* Text Content */
+p, ul { 
+  /* Colors text teal for consistency */
+  color: #1c829c;
+  /* Sets font size to 20px for readability */
+  font-size: 20px;
+  /* Limits width to 80% for a neat layout */
+  max-width: 80%;
+}
+
+p { margin: 50px 0 0 150px; text-align: center; }
+.based p { margin-top: -80px; color: #ffcb47; }
+.names p { margin-top: 20px; color: #ffcb47; }
+.cv p { margin-left: 320px; color: #fff; max-width: 55%; }
+.ct p { margin-left: 300px; max-width: 55%; }
+
+ul { margin: 10px 0 0 30px; text-align: left; }
+.section1 { margin: 50px 0 0 100px; }
+.section2 { margin: -130px 0 0 800px; }
+
+/* Reviews Section */
+.reviews1 p { margin-top: -15px; margin-left: 90px; color: #1c829c; max-width: 25%; text-align: left; font-size: 25px; position: absolute; }
+.reviews p { margin-top: 30px; margin-left: 90px; color: #1c829c; max-width: 25%; text-align: justify; font-size: 15px; position: absolute; }
+.stars1 p { margin-top: -10px; margin-left: 390px; color: #ffcb47; font-size: 15px; position: absolute; }
+.reviews2 p { margin-top: -40px; margin-left: 550px; color: #1c829c; max-width: 25%; text-align: left; font-size: 25px; position: absolute; }
+.reviews3 p { margin-top: 5px; margin-left: 550px; color: #1c829c; max-width: 23%; text-align: justify; font-size: 15px; position: absolute; }
+.stars2 p { margin-top: -35px; margin-left: 824px; color: #ffcb47; font-size: 15px; position: absolute; }
+.reviews4 p { margin-top: -15px; margin-left: 1000px; color: #1c829c; max-width: 25%; text-align: left; font-size: 25px; position: absolute; }
+.reviews5 p { margin-top: 30px; margin-left: 1000px; color: #1c829c; max-width: 24%; text-align: justify; font-size: 15px; position: absolute; }
+.stars3 p { margin-top: -10px; margin-left: 1285px; color: #ffcb47; font-size: 15px; position: absolute; }
+
+/* Button */
+.button {
+  /* Displays the button inline with block properties */
+  display: inline-block;
+  /* Adds padding for a comfy size */
+  padding: 20px 40px;
+  /* Sets a yellow background for brightness */
+  background: #ffcb47;
+  /* Colors text teal for contrast */
+  color: #1c829c;
+  /* Removes any border */
+  border: none;
+  /* Rounds corners for a pill shape */
+  border-radius: 40px;
+  /* Changes cursor to a pointer on hover */
+  cursor: pointer;
+  /* Centers it roughly with margin-left */
+  margin-left: 45.5%;
+  /* Adds slight top spacing */
+  margin-top: 1.5%;
+}
+
+.button:hover { 
+  /* Changes background to orange on hover */
+  background: #FFA033; 
+}
