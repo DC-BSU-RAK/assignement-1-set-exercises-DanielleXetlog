@@ -1,0 +1,157 @@
+body {
+    background-color: #fff;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/* Sets white background, removes scroll */
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+/* Styles main headings with white color */
+
+.rect {
+    width: 1450px;
+    height: 150px;
+    background-color: #17072b;
+    z-index: -1;
+    position: absolute;
+    margin-left: -9px;
+    margin-top: -50px;
+}
+/* Creates dark rectangle behind header */
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    background-color: #17072b;
+    margin-top: -23px;
+    width: 101.2%;
+    height: 63px;
+    margin-left: -8px;
+}
+/* Centers navigation menu with dark background */
+
+.nav-menu li {
+    margin: 0;
+}
+/* Removes list item margins */
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 25px;
+    display: block;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-family: Arial;
+    font-size: 20px;
+}
+/* Styles menu links with hover transition */
+
+.nav-menu a:hover {
+    background-color: #8c15e9;
+}
+/* Changes link background on hover */
+
+.welcome h1 {
+    font-family: Arial;
+    margin-left: -84%;
+    margin-top: 2%;
+    font-size: 40px;
+    color: #000;
+}
+/* Positions welcome title */
+
+.welcome p {
+    font-family: Arial;
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size: 20px;
+    color: #000;
+    max-width: 55%;
+}
+/* Styles welcome text with limited width */
+
+.p1 img {
+        width: 54.3%;
+        height: 44%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 2%;
+        margin-top: 26%;
+}
+/* Positions first image */
+
+.rect1 {
+    width: 590px;
+    height: 529px;
+    background-color: #172d67;
+    z-index: -2;
+    position: absolute;
+    margin-left: 59%;
+    margin-top: -13%;
+}
+/* Adds blue rectangle for design */
+
+.lineup h1 {
+    font-family: Arial;
+    margin-left: 32%;
+    margin-top: -11%;
+    font-size: 35px;
+    color: #fff;
+    position: relative;
+}
+/* Styles lineup title */
+
+.p p {
+    font-family: Arial;
+    margin-left: 61.3%;
+    margin-top: 1%;
+    font-size: 16px;
+    color: #fff;
+    max-width: 55%;
+    padding: 5px;
+}
+/* Formats event list text */
+
+.p2 img {
+        width: 16%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 61.6%;
+        margin-top: 32%;
+}
+/* Places second image */
+
+.p3 img {
+    width: 16%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 78.2%;
+    margin-top: 32%;
+}
+/* Positions third image */
+
+footer {
+    margin-top: 23.5%;
+    background-color: #8c15e9;
+    color: #FFFFFF;
+    padding: 1px;
+    padding-left: 38%;
+}
+/* Styles footer with purple background */
