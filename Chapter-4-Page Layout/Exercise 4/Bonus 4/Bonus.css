@@ -1,0 +1,145 @@
+body {
+    background: #F0F4FA;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 5px;
+    background: #fff;
+    border-radius: 50px;
+    width: 45%;
+    height: 60px;
+    margin: -553px auto 0 27.5%;
+    padding: 0;
+    position: absolute;
+    box-shadow: 0 3px 10px #1b2cc124;
+  }
+  
+  .nav-menu a {
+    color: #000;
+    text-decoration: none;
+    padding: 20px 36.5px; 
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    font-size: 20px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 100%; 
+  }
+  
+  .nav-menu a:hover { background: #FFBF69; }
+  
+  /* Rectangles */
+  .rect, .rect1 {
+    width: 25%;
+    height: 150%;
+    background: #fff;
+    position: absolute;
+    margin-top: -13%;
+  }
+  
+  .rect { z-index: -4; margin-left: 0; }
+  .rect1 { z-index: -2; margin-left: 74.9%; }
+  .recta4 { width: 0.3%; height: 22.5%; background: #1b2cc144; border-radius: 5px; margin: 20% 0 0 23.5%; position: absolute; z-index: -1; }
+  
+  /* Folders and Tops */
+  [class^="folder"], [class^="top"] {
+    position: absolute;
+    border-radius: 10px;
+    z-index: -2;
+  }
+  
+  .folder, .folder1, .folder2, .folder3, .folder4, .folder5 {
+    width: 20%;
+    height: 25%;
+    background: #A2BCE0;
+    box-shadow: 0 3px 5px #1b2cc12b;
+  }
+  
+  .top, .top1, .top2, .top3, .top4, .top5 {
+    width: 10%;
+    height: 10%;
+    background: #94B2DB;
+    z-index: -3;
+  }
+  
+  .folder { margin: -28% 0 0 28.5%; }
+  .top { margin: -30.5% 0 0 51.5%; }
+  .folder1 { margin: -28% 0 0 51.5%; }
+  .top1 { margin: 5.5% 0 0 51.5%; }
+  .folder2 { margin: -10% 0 0 28.5%; }
+  .top2 { margin: -30.5% 0 0 28.5%; }
+  .folder3 { margin: -10% 0 0 51.5%; }
+  .top3 { margin: -12.5% 0 0 28.5%; }
+  .folder4 { margin: 8% 0 0 28.5%; }
+  .top4 { margin: -12.5% 0 0 51.5%; }
+  .folder5 { margin: 8% 0 0 51.5%; }
+  .top5 { margin: 5.5% 0 0 28.5%; }
+  
+  /* Buttons */
+  .a, .b, .c, .d {
+    display: inline-block;
+    padding: 6px 20px;
+    background: #5785C7;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    position: absolute;
+    margin: 10px;
+  }
+  
+  .a { margin: -17% 0 0 44%; }
+  .b { margin: -17% 0 0 67%; }
+  .c { margin: 1% 0 0 44%; }
+  .d { margin: 1% 0 0 67%; }
+  .a:hover, .b:hover, .c:hover, .d:hover { background: #FFA033; }
+  
+  /* Text Elements */
+  .warm h1 { margin: 14.7% 0 0 2.2%; font-size: 40px; max-width: 30%; color: #1b2cc19b; position: absolute; }
+  .warm p { margin: 22.7% 0 0 2.2%; font-size: 16px; color: #1b2cc19b; position: absolute; }
+  .title { margin: 1% 0 0 1.5%; font-size: 15px; color: #1B2CC1; position: absolute; }
+  .w1 h1 { margin: 17.1% 0 0 2%; font-size: 20px; color: #000; position: absolute; }
+  .w2 h1 { margin: 17.1% 0 0 17%; font-size: 20px; color: #CC2936; position: absolute; }
+  .p1 h1 { margin: 34.7% 0 0 3.2%; font-size: 25px; color: #1b2cc152; position: absolute; }
+  .p9 h1 { margin: 6% 0 0 78.5%; font-size: 20px; color: #000; position: absolute; }
+  .p10 hr { margin: 10% 0 0 78.5%; border: 1px solid #1b2cc12f; width: 18%; position: absolute; }
+  .p11 h1 { margin: -38% 0 0 83.5%; font-size: 18px; color: #000000d9; position: absolute; }
+  [class^="weeks"], [class^="sub"] { font-size: 9px; color: #fff; position: absolute; }
+  .weeks1, .weeks4, .weeks5 { margin-left: 29.5%; }
+  .weeks2, .weeks3, .weeks6 { margin-left: 52.5%; }
+  .weeks1 { margin-top: -30.7%; }
+  .weeks2 { margin-top: -30.7%; }
+  .weeks3 { margin-top: -12.7%; }
+  .weeks4 { margin-top: -12.7%; }
+  .weeks5 { margin-top: 5.3%; }
+  .weeks6 { margin-top: 5.3%; }
+  .sub1, .sub4, .sub5 { margin-left: 29.5%; }
+  .sub2, .sub3, .sub6 { margin-left: 52.5%; }
+  .sub1, .sub2 { margin-top: -27.7%; color: #6690CC; }
+  .sub3, .sub4 { margin-top: -9.7%; color: #6690CC; }
+  .sub5, .sub6 { margin-top: 8.7%; max-width: 17%; z-index: -2; }
+  .sub5 { color: #6690CC; }
+  .sub6 { color: #5785C7; }
+  
+  /* Circles */
+  .cir2 { width: 50px; height: 50px; background: #FFBF69; border-radius: 50%; margin: 2% 0 0 93.5%; position: absolute; }
+  
+  /* Footer */
+  footer {
+    background: #1B2CC1;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    margin-top: 10%;
+    z-index: -1;
+    box-shadow: 0 -3px 10px #1b2cc12d;
+  }
