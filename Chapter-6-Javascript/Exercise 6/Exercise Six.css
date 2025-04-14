@@ -1,0 +1,147 @@
+/* The body selector styles the entire webpage, defining the layout and general appearance. */
+body {
+    /* display: flex turns the body into a flex container, enabling flexible alignment of its contents. */
+    display: flex;
+    /* justify-content: center horizontally centers all content within the body for a balanced look. */
+    justify-content: center;
+    /* align-items: center vertically centers content, ensuring it sits neatly in the viewport. */
+    align-items: center;
+    /* background-color: #F5F5F5 sets a light gray background, creating a clean and neutral aesthetic. */
+    background-color: #F5F5F5;
+    /* font-family specifies Arial (with Helvetica and sans-serif as fallbacks) for consistent typography across the page. */
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+/* The .container class styles a div that serves as the main container for the calculator’s content. */
+.container {
+    /* width: 530px sets a fixed width to keep the container compact and visually appealing. */
+    width: 530px;
+    /* height: 400px defines a fixed height to maintain consistent proportions for the layout. */
+    height: 400px;
+    /* background-color: #fafcff gives the container a soft white background for contrast against the page. */
+    background-color: #fafcff;
+    /* color: #1C2541 sets the text color to a dark navy, ensuring readability. */
+    color: #1C2541;
+    /* padding: 25px adds internal spacing to keep content from touching the container’s edges. */
+    padding: 25px;
+    /* border-radius: 10px rounds the container’s corners, creating a modern and smooth appearance. */
+    border-radius: 10px;
+    /* margin-top: 150px shifts the container 150 pixels down from the top for better positioning. */
+    margin-top: 150px;
+    /* box-shadow applies a subtle navy shadow with transparency, adding depth to the container. */
+    box-shadow: #1c25413c 0px 0px 20px 0px;
+}
+
+/* The h1 selector styles the main heading, used for the calculator’s title. */
+h1 {
+    /* display: flex makes the heading a flex container, allowing precise control over text alignment. */
+    display: flex;
+    /* justify-content: center horizontally centers the heading text within its space. */
+    justify-content: center;
+    /* align-items: center vertically centers the text, ensuring it’s neatly positioned. */
+    align-items: center;
+    /* padding: 5px adds slight internal spacing for a polished appearance. */
+    padding: 5px;
+    /* border-radius: 5px rounds the heading’s corners, though this is typically invisible without a background. */
+    border-radius: 5px;
+}
+
+/* The h2 selector styles secondary headings, such as the label for the total amount. */
+h2 {
+    /* display: flex allows flexible alignment of the heading text within its container. */
+    display: flex;
+    /* margin-left: 20% shifts the heading 20% from the left edge for visual alignment. */
+    margin-left: 20%;
+    /* align-items: center vertically centers the text for a clean presentation. */
+    align-items: center;
+    /* padding: 5px adds minimal spacing to enhance readability. */
+    padding: 5px;
+    /* border-radius: 5px rounds corners, though often not visible without a background. */
+    border-radius: 5px;
+    /* font-size: 25px increases the text size for emphasis and clarity. */
+    font-size: 25px;
+}
+
+/* The #totalAmount ID targets a specific h2 element for displaying the calculated total. */
+#totalAmount {
+    /* display: flex enables flexible alignment for the total amount text. */
+    display: flex;
+    /* justify-content: center horizontally centers the text within its designated space. */
+    justify-content: center;
+    /* align-items: center vertically centers the text for a tidy appearance. */
+    align-items: center;
+    /* margin-top: -60px pulls the element upward to overlap other content, adjusting its position. */
+    margin-top: -60px;
+    /* margin-left: 160px shifts the element 160 pixels left for precise layout placement. */
+    margin-left: 160px;
+    /* border-radius: 5px rounds corners, typically not visible without a background. */
+    border-radius: 5px;
+    /* font-size: 25px ensures the total amount is displayed prominently and legibly. */
+    font-size: 25px;
+}
+
+/* The .wrapper class styles a div that organizes input fields in a row. */
+.wrapper {
+    /* display: flex arranges child elements (like input divs) side by side in a flexible row. */
+    display: flex;
+}
+
+/* The div selector applies default styling to all div elements unless overridden by other rules. */
+div {
+    /* margin: 20px adds equal spacing around divs, creating separation and a balanced layout. */
+    margin: 20px;
+}
+
+/* The #btn ID styles a specific div containing the button and total amount display. */
+#btn {
+    /* margin-top: 30px adds extra spacing above to separate it from preceding content. */
+    margin-top: 30px;
+    /* color: #1C2541 sets the text color to navy, matching the container’s text for consistency. */
+    color: #1C2541;
+}
+
+/* The button selector styles the calculator’s button for user interaction. */
+button {
+    /* background-color: #5DA9E9 sets a vibrant blue background to make the button stand out. */
+    background-color: #5DA9E9;
+    /* border-radius: 5px rounds the button’s corners for a softer, approachable look. */
+    border-radius: 5px;
+    /* border: 2px solid #5DA9E9 adds a matching blue border for a cohesive design. */
+    border: 2px solid #5DA9E9;
+    /* padding: 10px 185px creates a wide button with vertical and horizontal padding for easy clicking. */
+    padding: 10px 185px;
+    /* color: white sets the button text to white for strong contrast and readability. */
+    color: white;
+    /* margin-left: 20px shifts the button slightly left to align with other elements. */
+    margin-left: 20px;
+}
+
+/* The button:hover pseudo-class changes the button’s style when the mouse hovers over it. */
+button:hover {
+    /* background-color: #4BA1E7 slightly darkens the blue to indicate the button is interactive. */
+    background-color: #4BA1E7;
+}
+
+/* The input[type="number"] selector styles number input fields for user data entry. */
+input[type="number"] {
+    /* width: 100% makes the input span the full width of its parent for a uniform look. */
+    width: 100%;
+    /* padding: 10px adds internal spacing to make the input field comfortable to use. */
+    padding: 10px;
+    /* border: 2px solid #dfe6e9 creates a light gray border for a subtle outline. */
+    border: 2px solid #dfe6e9;
+    /* border-radius: 5px rounds the input’s corners for a smooth, modern appearance. */
+    border-radius: 5px;
+    /* font-size: 1rem sets the text size to the default (16px) for readability. */
+    font-size: 1rem;
+    /* transition: border-color 0.3s ease enables a smooth border color change on focus or interaction. */
+    transition: border-color 0.3s ease;
+    /* margin-left: 1px adds a tiny shift for precise alignment with other elements. */
+    margin-left: 1px;
+}
+
+/* The .p class styles paragraph elements, though it appears unused in the referenced HTML. */
+.p {
+    /* color: #1C2541 sets the text color to navy, aligning with other text elements. */
+    color: #1C2541;
+}

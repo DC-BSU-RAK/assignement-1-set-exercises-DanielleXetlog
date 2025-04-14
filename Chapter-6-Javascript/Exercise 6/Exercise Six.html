@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- The <title> tag defines the page’s title, shown in the browser tab and used by search engines. -->
+    <title>Exercise Six</title> 
+    <!-- The <link> tag connects an external CSS file for styling, with href pointing to the file’s location. -->
+    <link rel="stylesheet" href="Exercise Six.css"> 
+    <!-- The <script> tag links an external JavaScript file to add interactivity, with src specifying the file path. -->
+    <script src="Exercise Six.js"></script>
+</head>
+<!-- The <body> tag contains all visible content, such as text, inputs, and buttons, that users interact with. -->
+<body>
+    <!-- The <div> tag with class="container" groups content together, styled via CSS for layout and design. -->
+    <div class="container">
+        <!-- The <h1> tag creates a main heading, displaying the title "Petrol Calculator" prominently. -->
+        <h1>Petrol Calculator</h1>
+        <!-- The <div> tag with class="wrapper" organizes input fields, styled to align them neatly. -->
+        <div class="wrapper">
+            <!-- This <div> groups the petrol price input and its label for better structure. -->
+            <div>
+                <!-- The <p> tag displays a paragraph, here labeling the petrol price input field. -->
+                <p>Petrol price per litre ($)</p>
+                <!-- The <input> tag creates a number input field with id="Petrol_Price" for JavaScript access, placeholder="1.72" as a hint, and type="number" to restrict to numeric input. -->
+                <input id="Petrol_Price" placeholder="1.72" type="number">
+            </div>
+            <!-- This <div> groups the litre input and its label, keeping the form organized. -->
+            <div>
+                <!-- The <p> tag labels the litre input field for clarity. -->
+                <p>Litre</p>
+                <!-- The <input> tag creates a number input with id="liters" for JavaScript, placeholder="1" as a guide, and type="number" for numeric input only. -->
+                <input id="liters" placeholder="1" type="number">
+            </div>
+        </div>
+        <!-- The <div> tag with id="btn" groups the button and result display, styled uniquely via CSS. -->
+        <div id="btn">
+            <!-- The <button> tag creates a clickable button with onclick="calculate()" to trigger a JavaScript function when clicked. -->
+            <button onclick="calculate()">Calculate Cost</button>
+            <!-- The <h2> tag displays static text "Total Amount: $" as a label for the calculated result. -->
+            <h2>Total Amount: $</h2>
+            <!-- The <h2> tag with id="totalAmount" is empty, reserved for JavaScript to display the calculated total dynamically. -->
+            <h2 id="totalAmount"></h2>
+        </div>
+    </div>
+</body>
+</html>
