@@ -1,0 +1,39 @@
+/* The body selector styles the entire webpage’s body, setting foundational properties for the layout and appearance. */
+body {
+    /* margin: 0 removes default spacing around the page, ensuring content touches the edges if needed. */
+    margin: 0;
+    /* padding: 0 eliminates any default inner spacing, giving full control over layout. */
+    padding: 0;
+    /* background-color sets the page’s background to a bold red (#D80032) for a striking visual effect. */
+    background-color: #D80032;
+    /* overflow: hidden prevents scrollbars, keeping content within the viewport for a cleaner look. */
+    overflow: hidden;
+}
+
+/* The .text class styles elements with the "text" class, used here for the heading text. */
+.text {
+    /* color: #fff sets the text color to white, ensuring it stands out against the red background. */
+    color: #fff;
+    /* margin-left: 21% shifts the text 21% from the left edge, aligning it with the video for balance. */
+    margin-left: 21%;
+    /* margin-top: -34% pulls the text upward to overlap the video, creating a layered effect. */
+    margin-top: -34%;
+    /* font-size: 15px sets a smaller text size for readability and aesthetic proportion. */
+    font-size: 15px;
+}
+
+/* The .video class styles the video element, controlling its size, shape, and positioning. */
+.video {
+    /* width: 50% makes the video take up half the page width, keeping it prominent but not overwhelming. */
+    width: 50%;
+    /* height: auto ensures the video’s height scales proportionally with its width, avoiding distortion. */
+    height: auto;
+    /* border-radius: 15px rounds the video’s corners for a softer, modern look. */
+    border-radius: 15px;
+    /* box-shadow adds a subtle shadow (black with 50% opacity) for depth and a floating effect. */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* margin-left: 24% shifts the video 24% from the left, centering it visually on the page. */
+    margin-left: 24%;
+    /* margin-top: 13% pushes the video down 13% from the top for balanced spacing. */
+    margin-top: 13%;
+}
